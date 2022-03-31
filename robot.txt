@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow:
+Sitemap: https://julien7442.github.io/Agence-web-design-La-Panthere/
