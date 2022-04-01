@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -1039,4 +1039,16 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* */
+
+.maxime_guibard {
+    font-size: 22px;
+    color: #7b7a7a;
+    margin-top: -0.5rem;
+}
+
+.citation h2 {
+    margin: 0;
 }
