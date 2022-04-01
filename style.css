@@ -53,7 +53,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 30px 50px;
 }
 
 .bg-center,
@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important;
 }
 
 .icon-lg {
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: #292929;
 }
 
 .container {
@@ -700,8 +700,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto auto auto auto;
+    padding: 1rem 0;
 }
 
 h2 {
@@ -753,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #29427e;
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +772,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #29427e;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f9af5a!important;
+    font-weight: 600;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f9af5a;
     color: #FFFFFF!important;
 }
 
@@ -793,11 +795,11 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #4F4F4F!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #C25700!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1051,4 +1053,8 @@ h4 {
 
 .citation h2 {
     margin: 0;
+}
+
+p {
+    font-size: 14px;
 }
