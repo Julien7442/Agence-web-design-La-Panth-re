@@ -377,6 +377,7 @@ p {
     display: flex;
     justify-content: center;
     gap: 6rem;
+    text-decoration: none;
 }
 h2 {
     font-size: 22px;
@@ -414,7 +415,7 @@ h4 {
     margin-top: 50px;
 }
 .black-background {
-    background-color: #29427e;
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 .bold-link {
@@ -428,18 +429,18 @@ h4 {
     background-color: #364577;
 }
 .bgc-atomic-tangerine {
-    background-color: #29427e;
+    background-color: #f3976c;
 }
 .tc-white {
-    color: #f9af5a !important;
+    color: #f3976c !important;
     font-weight: 600;
 }
 .btn-atomic-tangerine {
-    background: #f9af5a;
+    background: #f3976c;
     color: #fff !important;
 }
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: #f3976c !important;
     color: #fff !important;
 }
 .ltc-white {
@@ -449,10 +450,10 @@ h4 {
     color: #4f4f4f !important;
 }
 .ltc-atomic-tangerine {
-    color: #c25700 !important;
+    color: #f3976c !important;
 }
 .ltc-atomic-tangerine:hover {
-    color: #c27956 !important;
+    color: #f3976c !important;
 }
 .icon-dark-slate-blue {
     color: #364577 !important;
@@ -613,4 +614,25 @@ h4 {
 }
 p {
     font-size: 14px;
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.social2 {
+    max-width: 560px;
+    padding: 1rem 0;
+    gap: 6rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .social2 {
+        gap: 3rem;
+    }
 }
